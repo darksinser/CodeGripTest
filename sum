@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class S1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input= new Scanner(System.in);
+       int number1,number2,sum;
+         System.out.print("enter number 1 :");
+       number1=input.nextInt();
+        System.out.print("enter number 2 :");
+       number2=input.nextInt();
+       sum=number1+number2;
+       System.out.printf("%s%d\n","SUM :",sum);
+    }
+    
+}
